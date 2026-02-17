@@ -19,6 +19,8 @@ import { cn } from "@/lib/utils";
 
 import { CardScanner } from "@/components/ui/card-scanner";
 import { VideoGallery } from "@/components/ui/video-gallery";
+import { RecipeGallery } from "@/components/ui/recipe-gallery";
+import { AffiliateStore } from "@/components/ui/affiliate-store";
 
 export default function DemoOne() {
   const [mounted, setMounted] = useState(false);
@@ -49,6 +51,9 @@ export default function DemoOne() {
           <CardScanner />
         </section>
 
+        {/* The Recipe Library */}
+        <RecipeGallery />
+
         {/* Video Tutorial Vault */}
         <VideoGallery />
 
@@ -62,10 +67,10 @@ export default function DemoOne() {
           <ContainerScroll
             titleComponent={
               <div className="flex flex-col items-center">
-                <h1 className="text-4xl font-semibold text-foreground">
+                <h1 className="text-4xl font-semibold text-foreground text-center">
                   Master the Art of <br />
                   <span className="text-5xl md:text-[6rem] font-bold mt-1 leading-none text-primary">
-                    Professional Mixology
+                    Mixology
                   </span>
                 </h1>
               </div>
@@ -85,8 +90,11 @@ export default function DemoOne() {
           </ContainerScroll>
         </section>
 
+        {/* Professional Bar Gear Shop */}
+        <AffiliateStore />
+
         {/* Interactive Spline 3D Section */}
-        <section className="mx-auto w-full max-w-5xl px-4 py-20" id="recipes">
+        <section className="mx-auto w-full max-w-5xl px-4 py-20">
             <Card className="w-full h-[600px] bg-black/[0.96] relative overflow-hidden border-border/40 shadow-2xl">
                 <div className="flex h-full flex-col md:flex-row">
                     {/* Left content */}
@@ -117,7 +125,7 @@ export default function DemoOne() {
 
         {/* Glowing Dashboard Section */}
         <section className="mx-auto w-full max-w-5xl px-4 py-20">
-            <h2 className="text-4xl font-bold text-center mb-16">High-Performance Training</h2>
+            <h2 className="text-4xl font-bold text-center mb-16 uppercase tracking-tighter">Mixology Excellence</h2>
             <ul className="grid grid-cols-1 grid-rows-none gap-4 md:grid-cols-12 md:grid-rows-3 lg:gap-4 xl:max-h-[34rem] xl:grid-rows-2">
                 <GridItem
                     area="md:[grid-area:1/1/2/7] xl:[grid-area:1/1/2/5]"
@@ -161,11 +169,11 @@ export default function DemoOne() {
             <div className="absolute inset-0 z-0">
                 <DotScreenShader />
             </div>
-            <div className="relative z-10 text-center pointer-events-none">
+            <div className="relative z-10 text-center pointer-events-none px-4">
                 <h1 className="text-6xl md:text-8xl font-black tracking-tighter mix-blend-exclusion text-white uppercase">
                     Mixology Reimagined
                 </h1>
-                <p className="text-xl md:text-2xl font-light text-white mix-blend-exclusion max-w-2xl mx-auto mt-4 px-4">
+                <p className="text-xl md:text-2xl font-light text-white mix-blend-exclusion max-w-2xl mx-auto mt-4">
                     The fusion of cutting-edge tech and world-class bartending techniques.
                 </p>
             </div>
