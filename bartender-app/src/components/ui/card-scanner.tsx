@@ -351,10 +351,10 @@ export const CardScanner = () => {
       </motion.div>
 
       <div className="absolute bottom-6 flex flex-col items-center gap-2 z-30">
-        <div className="text-[10px] font-mono text-white/20 tracking-[10px] uppercase">
-            Digital Asset Verification
+        <div className="text-[10px] font-mono text-white/20 tracking-[5px] uppercase text-center max-w-md leading-relaxed px-4">
+            Forged in the furnace of high-velocity service and refined by an obsession with analytical precision.
         </div>
-        <div className="text-[8px] font-mono text-white/10 uppercase">
+        <div className="text-[8px] font-mono text-white/10 uppercase mt-2">
             Inspired by <a href="https://evervault.com/" target="_blank" className="hover:text-primary transition-colors">@evervault.com</a>
         </div>
       </div>

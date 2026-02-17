@@ -51,17 +51,23 @@ export function HeroSection() {
 					<ArrowRightIcon className="size-3 duration-150 ease-out group-hover:translate-x-1" />
 				</a>
 
+				<div className="fade-in slide-in-from-bottom-10 animate-in fill-mode-backwards transition-all delay-300 duration-1000 ease-out">
+					<div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary text-[10px] font-bold uppercase tracking-[0.2em] mb-4">
+						<Sparkles className="h-3 w-3" /> The perfect pour is a calculated collision of chemistry, history, and theater
+					</div>
+				</div>
+
 				<h1
 					className={cn(
 						"fade-in slide-in-from-bottom-10 animate-in text-balance fill-mode-backwards text-center text-4xl tracking-tight delay-100 duration-500 ease-out md:text-5xl lg:text-6xl",
-						"text-shadow-[0_0px_50px_theme(--color-foreground/.2)]"
+						"text-shadow-[0_0px_50px_theme(--color-foreground/.2)] font-black uppercase italic"
 					)}
 				>
 					The Art of <br /> Professional Mixology
 				</h1>
 
 				<p className="fade-in slide-in-from-bottom-10 mx-auto max-w-md animate-in fill-mode-backwards text-center text-base text-foreground/80 tracking-wider delay-200 duration-500 ease-out sm:text-lg md:text-xl">
-					Mastering spirits, techniques, and the <br /> craft of the perfect pour.
+					Deconstructing the classics. <br /> Mastering the science of the stir.
 				</p>
 
 				<div className="fade-in slide-in-from-bottom-10 flex animate-in flex-row flex-wrap items-center justify-center gap-3 fill-mode-backwards pt-2 delay-300 duration-500 ease-out">
